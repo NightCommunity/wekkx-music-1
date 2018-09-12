@@ -27,7 +27,6 @@ client.user.setGame(`Night`,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
 });
-const Discord = require('discord.js');
 
 const Util = require('discord.js');
 
