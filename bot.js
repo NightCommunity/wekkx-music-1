@@ -4,7 +4,7 @@ const prefix = '1'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Night`,"http://twitch.tv/S-F")
+client.user.setGame(`Wekkx || 1play`,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -371,5 +371,4 @@ client.on('message', message => {
     }
 });
 
-client.login(process.env.BOT_TOKEN);
 client.login(process.env.BOT_TOKEN);
