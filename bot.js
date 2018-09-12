@@ -1,10 +1,10 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = '1'
+const prefix = '*'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Wekkx || 1play`,"http://twitch.tv/S-F")
+client.user.setGame(`Night`,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -49,7 +49,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "1";
+const prefix = "*";
 /////////////////////////
 ////////////////////////
 
@@ -371,4 +371,5 @@ client.on('message', message => {
     }
 });
 
+client.login(process.env.BOT_TOKEN);
 client.login(process.env.BOT_TOKEN);
