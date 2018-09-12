@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = '*'
+const prefix = '1'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -49,7 +49,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "1";
+const prefix = "*";
 /////////////////////////
 ////////////////////////
 
@@ -370,4 +370,7 @@ client.on('message', message => {
       message.channel.send(helpEmbed);
     }
 });
+
+client.login(process.env.BOT_TOKEN);
+
 client.login(process.env.BOT_TOKEN);
