@@ -342,6 +342,7 @@ client.on('message', message => {
     }
 });
 client.on('ready', () => {
-    client.user.setGame('Wekkx || 1play', 'https://www.twitch.tv/idkwho%27);
+  console.log(`Logged in as ${client.user.tag}!`);
+client.user.setGame(`Wekkx || 1play`,"http://twitch.tv/S-F")
 });
 client.login(process.env.BOT_TOKEN);
