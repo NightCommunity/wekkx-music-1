@@ -1,4 +1,3 @@
-bot.user.setActivity(Alpha Codes, {type:'STREAMING', url: "https://www.twitch.tv/AlphaCodes%22%7D);
 const Discord = require('discord.js');
 
 const Util = require('discord.js');
