@@ -343,7 +343,7 @@ client.on('message', message => {
 });
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = [' Wekkx ','|| | 1play',' ',' ',''];
+    var setGame = [''Wekkx'|| | 1play',' ',' ',''];
     var i = -1;
     var j = 0;
     setInterval(function (){
